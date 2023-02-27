@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EDA8EACB29A1290F00227E0B /* Personne.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8EACA29A1290F00227E0B /* Personne.swift */; };
+		EDA8EACD29A12AF900227E0B /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = EDA8EACC29A12AF800227E0B /* data.json */; };
+		EDA8EACF29A12D4E00227E0B /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8EACE29A12D4E00227E0B /* LoadData.swift */; };
+		EDA8EAD129A12D9200227E0B /* PersonneRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8EAD029A12D9200227E0B /* PersonneRow.swift */; };
+		EDA8EAD429A1420B00227E0B /* PersonneList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8EAD329A1420B00227E0B /* PersonneList.swift */; };
+		EDA8EAD629A1481B00227E0B /* PersonneDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA8EAD529A1481B00227E0B /* PersonneDetail.swift */; };
 		EDEA858929A1025300115D21 /* LunabeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEA858829A1025300115D21 /* LunabeeApp.swift */; };
 		EDEA858B29A1025300115D21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEA858A29A1025300115D21 /* ContentView.swift */; };
 		EDEA858D29A1025500115D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEA858C29A1025500115D21 /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EDA8EACA29A1290F00227E0B /* Personne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personne.swift; sourceTree = "<group>"; };
+		EDA8EACC29A12AF800227E0B /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		EDA8EACE29A12D4E00227E0B /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
+		EDA8EAD029A12D9200227E0B /* PersonneRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonneRow.swift; sourceTree = "<group>"; };
+		EDA8EAD329A1420B00227E0B /* PersonneList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonneList.swift; sourceTree = "<group>"; };
+		EDA8EAD529A1481B00227E0B /* PersonneDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonneDetail.swift; sourceTree = "<group>"; };
 		EDEA858529A1025300115D21 /* Lunabee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lunabee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEA858829A1025300115D21 /* LunabeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunabeeApp.swift; sourceTree = "<group>"; };
 		EDEA858A29A1025300115D21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +44,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EDA8EAD229A13EB600227E0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDEA858A29A1025300115D21 /* ContentView.swift */,
+				EDA8EAD029A12D9200227E0B /* PersonneRow.swift */,
+				EDA8EAD329A1420B00227E0B /* PersonneList.swift */,
+				EDA8EAD529A1481B00227E0B /* PersonneDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EDEA857C29A1025300115D21 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +74,11 @@
 		EDEA858729A1025300115D21 /* Lunabee */ = {
 			isa = PBXGroup;
 			children = (
+				EDA8EACC29A12AF800227E0B /* data.json */,
 				EDEA858829A1025300115D21 /* LunabeeApp.swift */,
-				EDEA858A29A1025300115D21 /* ContentView.swift */,
+				EDA8EAD229A13EB600227E0B /* Views */,
+				EDA8EACA29A1290F00227E0B /* Personne.swift */,
+				EDA8EACE29A12D4E00227E0B /* LoadData.swift */,
 				EDEA858C29A1025500115D21 /* Assets.xcassets */,
 				EDEA858E29A1025500115D21 /* Preview Content */,
 			);
@@ -126,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDEA859029A1025500115D21 /* Preview Assets.xcassets in Resources */,
+				EDA8EACD29A12AF900227E0B /* data.json in Resources */,
 				EDEA858D29A1025500115D21 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +165,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDEA858B29A1025300115D21 /* ContentView.swift in Sources */,
+				EDA8EAD429A1420B00227E0B /* PersonneList.swift in Sources */,
 				EDEA858929A1025300115D21 /* LunabeeApp.swift in Sources */,
+				EDA8EAD129A12D9200227E0B /* PersonneRow.swift in Sources */,
+				EDA8EACB29A1290F00227E0B /* Personne.swift in Sources */,
+				EDA8EACF29A12D4E00227E0B /* LoadData.swift in Sources */,
+				EDA8EAD629A1481B00227E0B /* PersonneDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
